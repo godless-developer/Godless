@@ -78,9 +78,6 @@
 .content-grids:hover {
     background-color: #f7f7f7;
     border: pink solid;
-    .content-uk-logo {
-    background: none;
-    }
 }
 .content-right {
     width: 50%;
