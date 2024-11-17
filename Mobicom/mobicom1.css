@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.body {
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
+.container {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+.header {
+    width: 100%;
+    height: 64px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    color: aliceblue;
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo img {
+    width: 64px;
+    height: 35.6px;
+}
+.header-right {
+    width: 136px;
+    height: 40px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.header-right-sun {
+    width: 40px;
+    height: 40px;
+    background-color: hsla(0, 0%, 100%, .1);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.header-right-shop {
+    width: 40px;
+    height: 40px;
+    background-color: hsla(0, 0%, 100%, .1);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.header-right-bar {
+    width: 40px;
+    height: 40px;
+    background-color: hsla(0, 0%, 100%, .1);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.easy {
+    width: 100%;
+    height: 836px;
+    margin-top: 26px;
+    border-radius: 10px;
+    padding: 16px;
+    background-image: url(./mobicom.screen.img);
+    background-position: center;
+    background-size: cover;
+    transition: all 0.7s ease-in-out;
+}
+@media screen and (min-width: 900px) {
+    .easy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+    }
+}
+.easy-top {
+    width: 100%;
+    height: 192px;
+    color: #f7f7f7;
+    margin-top: 48px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.easy-bottom {
+    width: 100%;
+    height: 516px;
+    padding: 12px;
+    margin-top: 48px;
+    background-color: #ffffff1A;
+    border-radius: 10px;
+
+}
+.easy-bottom-top {
+    width: 100%;
+    height: 48px;
+    background-color: #ffffffD9;
+    padding: 8px;
+    border-radius: 10px;
+}
+.easy-bottom-top-black {
+    background-color: #1f1f1ff2;
+    color: #f7f7f7;
+    font-size: 12px;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 10px;
+}
+.easy-bottom-bottom {
+    width: 100%;
+    margin-top: 12px;
+    padding: 16px;
+    display: flex;
+    gap: 8px;
+    background-color: #ffffffD9;
+    border-radius: 10px;
+}
+.easy-bottom-bottoms {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+.easy-grids {
+    width: 100%;
+    height: 128px;
+    border-radius: 10px;
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: center;
+}
+.easy-grids-top {
+    display: flex;
+    justify-content: center;
+}
+.easy-logo {
+    width: 64px;
+    height: 60px;
+    display: flex;
+    border: 2px pink solid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #ffffffD9;
+}
+.easy-logo img {
+    width: 36px;
+    height: 35px;
+}
+.easy-grids-bottom {
+    height: 16px;
+    margin-top: 12px;
+    text-align: center;
+}
+.special {
+    width: 100%;
+    height: 541px;
+    background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.special-header {
+    width: 100%;
+    height: 36px;
+    padding-top: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: #f7f7f7;
+}
+.special-center {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top:40px;
+}
+.special-center-grey {
+    width: 70%;
+    height: 50px;
+    display: flex;
+    border: 1px rgb(82, 82, 82) solid;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #333;
+}
+.special-center-grey-icons {
+    width: 14%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f7f7f7; */
+    border-radius: 15px;
+}
