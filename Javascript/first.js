@@ -25,6 +25,7 @@
 // console.log(line6);
 // console.log(line7);
 // console.log(line8);
+//bagshilj cadahuu cod bicij cadahuu gedgiig ni asuuj ajild awah oroldlogo----->
 //  let knowcoding = false;
 //  let teaching = false;
 // //ajild awah shaardlagiig asuuw
@@ -42,37 +43,38 @@
 //         console.log("psda hari2")
 //     }
 //  }
-let dorom = false;
-let score = 20;
+// Joloonii shalgaltiin hariu---------------------------->
+// let dorom = false;
+// let score = 20;
 
-if (dorom == true) {
-    if (score>17) {
-        if (score>20) {
-            console.log("aldaatai")
-        }else{
-            console.log("tentssen")
-        }
-    }else {
-        if (score<0) {
-            console.log("aldaatai")
-        }else {
-            console.log("duremdee tentssen bh heregtei")
-        }
-    }
-}else {
-    if (score>17) {
-        if (score>20) {
-            console.log("aldaatai")
-        }else {
-            console.log("doromdoo tentssen bh heregtei")
-        }
-    }else {
-        if (score<0) {
-            console.log("aldaatai")
-        }else {
-            console.log("2 uland ni tentssen bh heregtei")
-        }
-    }
-}
+// if (dorom == true) {
+//     if (score>17) {
+//         if (score>20) {
+//             console.log("aldaatai")
+//         }else{
+//             console.log("tentssen")
+//         }
+//     }else {
+//         if (score<0) {
+//             console.log("aldaatai")
+//         }else {
+//             console.log("duremdee tentssen bh heregtei")
+//         }
+//     }
+// }else {
+//     if (score>17) {
+//         if (score>20) {
+//             console.log("aldaatai")
+//         }else {
+//             console.log("doromdoo tentssen bh heregtei")
+//         }
+//     }else {
+//         if (score<0) {
+//             console.log("aldaatai")
+//         }else {
+//             console.log("2 uland ni tentssen bh heregtei")
+//         }
+//     }
+// }
 
 

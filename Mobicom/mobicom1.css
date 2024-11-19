@@ -233,3 +233,14 @@
     /* background-color: #f7f7f7; */
     border-radius: 15px;
 }
+.special-center-content {
+    display: flex;
+    gap: 20px;
+}
+.special-center-content-s1 {
+    width: 900px;
+    height: 280px;
+    background-image: url(https://osa.mobicom.mn/content/mcommerce/uploads/Top_100_2024_2_1fac711fe4.webp);
+    background-size: cover;
+    background-position: center;
+}
