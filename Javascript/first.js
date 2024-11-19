@@ -42,8 +42,8 @@
 //         console.log("psda hari2")
 //     }
 //  }
-let dorom = true;
-let score = -19;
+let dorom = false;
+let score = 20;
 
 if (dorom == true) {
     if (score>17) {
