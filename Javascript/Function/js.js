@@ -17,4 +17,16 @@ addnumbers(26 ,3 ,42 ,5);
 addnumbers(25 ,25 ,25 ,25);
 
 
+function savage(a, b, c) {
+    if (a >= b && a >= c) return a;
+    if (a <= b && c <= b) return b;
+    return c;
+}
+const savage3=(a, b, c) => {
+    const maniac = savage(a, b, c)
+
+    console.log(maniac * 3)
+}
+savage3(12, 14, 4);
+
 
