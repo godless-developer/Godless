@@ -77,17 +77,62 @@
 // let answer = findNumOdd(numbers);
 // console.log(answer);
 
-let numbers = [2, 12, 67, 98, 78, 345, 546, 789, 567, 25, 345, 867, 345, 23, 67, 786];
+// let numbers = [2, 12, 67, 98, 78, 345, 546, 789, 567, 25, 345, 867, 345, 23, 67, 786];
 
-function findOdd(arr) {
-    let odd = arr[0];
-    for ( let i = 0; i < arr.length; i++) {
-        if (arr[i] % 2 !== 0) {
-            odd = arr[i];
-        }
-    }
-    return odd;
+// function findOdd(arr) {
+//     let odd = arr[0];
+//     for ( let i = 0; i < arr.length; i++) {
+//         if (arr[i] % 2 !== 0) {
+//             odd = arr[i];
+//         }
+//     }
+//     return odd;
+// }
+
+// let answer = findOdd(numbers);
+// console.log(answer);
+
+//hamgiin ih tegsh toog oloh 
+// let a = [44, 20, 30, 6, 13, 14, 54, 46];
+// let max = 0;
+// let min = a[0];
+// let j = 0;
+ 
+// for (let i = 0; i < a.length; i++) {
+//   if (a[i] % 2 == 0) {
+//     max = a[i];
+//     i == a.length;
+//   }
+// }
+// for (let i = 0; i < a.length; i++) {
+//   if (a[i] % 2 == 0 && max < a[i]) {
+//     // max = max >= a[i] ? max : a[i];
+//     max = a[i];
+//   }
+// }
+// console.log(max);
+
+
+// hamgiin baga sondgoi toog oloh
+let a = [2, 3,44, 20, 30, 6, 13, 14, 54, 46];
+let mim = 0;
+let max = a[0];
+let j = 0;
+ 
+for (let i = 0; i < a.length; i++) {
+  if (a[i] % 2 !== 0) {
+    mim = a[i];
+    i == a.length;
 }
+}
+for (let i = 0; i < a.length; i++) {
+  if (a[i] % 2 !== 0 && mim > a[i]) {
+    mim = a[i];
+  }
+}
+console.log(mim);
 
-let answer = findOdd(numbers);
-console.log(answer);
+
+function findNumOdd(input) {
+    let minOdd = 100000;
+}

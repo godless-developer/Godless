@@ -77,3 +77,47 @@ function mirroredRightTri(num) {
     }
 }
 mirroredRightTri(5);
+
+// ----*
+// ---**
+// --***
+// -****
+// *****
+
+
+function mirroredleftTri(num) {
+    let = str = "";
+    for (let j=0; j < num; j++) {
+        let str = "-";
+        for(let i=0; i <= num - j; i++){
+            str += "*";
+        }
+        console.log(str);
+    }
+}
+mirroredleftTri(5);
+
+// for (let i = 1; i <= 5; i++) {
+//     let stars = '*'.repeat(i);         // Create a string of stars of length i
+//     let spaces = ' '.repeat(5 - i);    // Create a string of spaces (5 - i)
+//     console.log(spaces + stars);       // Print spaces followed by stars
+//   }
+
+
+function mirroredleftTri(num) {
+
+    for (let i = 1; i <= num; i++) {
+        let str = "";
+        for (let j = 1; j <= num - i; j++) {
+            str += " "; 
+        }
+        for (let k = 1; k <= i; k++) {
+            str += "*"; 
+        }
+        console.log(str);
+    }
+}
+
+mirroredleftTri(5);
+
+  

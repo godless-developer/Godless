@@ -1,4 +1,4 @@
-1.Gatsuur
+// 1.Gatsuur
 
 // let tree = "";
 
@@ -7,7 +7,7 @@
 //         console.log(tree += width)
 // }
 // line(50 , "*")
-2. iheesee 2 dahi toog onslotchange
+// 2. iheesee 2 dahi toog onslotchange
 
 // function too(a, b, c) {
 //     if (a > b) {
@@ -36,11 +36,11 @@
 
 // too( 26, 13, 45);
 
-3. Functiond n too orj irhed ter too hurtel hevlene.
-    hevlehdee 3t huvaagddag bol "Fizz" 5t huvaagddag bol "Buzz"
-    2uulandn huvaagddag bol FizzBuzz
-    input: 15
-    output: 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz .... 14, FizzBuzz
+// 3. Functiond n too orj irhed ter too hurtel hevlene.
+//     hevlehdee 3t huvaagddag bol "Fizz" 5t huvaagddag bol "Buzz"
+//     2uulandn huvaagddag bol FizzBuzz
+//     input: 15
+//     output: 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz .... 14, FizzBuzz
 
 
 // function number(n) {
