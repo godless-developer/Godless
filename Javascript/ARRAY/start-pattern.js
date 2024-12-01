@@ -120,4 +120,10 @@ function mirroredleftTri(num) {
 
 mirroredleftTri(5);
 
+
+
+
+hi zaluusaaa
+
+
   
