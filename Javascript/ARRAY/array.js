@@ -1,11 +1,11 @@
 //Array
- //let ages = [10, 15, 20, 25, 30, 35, 40, 45];
-//  let names = [ "bataa", "boldoo", "bayaraa", "suhee", "boogii", "naraa", "chimegee", "hulan"];
+ let ages = [10, 15, 20, 25, 30, 35, 40, 45];
+ let names = [ "bataa", "boldoo", "bayaraa", "suhee", "boogii", "naraa", "chimegee", "hulan"];
 
-//  console.log(ages[5]);
-//  console.log(names[6]);
-//  console.log(ages.length);
-//  console.log(names.length);
+ console.log(ages[5]);
+ console.log(names[6]);
+ console.log(ages.length);
+ console.log(names.length);
 
 
  //nasnuudiin niilberiig oloh

@@ -73,52 +73,83 @@
 
 
 
-let guilgee = [234, 4234, -2342, 4234, -342, 243, -34234, 4234, -23423, 423, -3424, ]
+// let guilgee = [234, 4234, -2342, 4234, -342, 243, -34234, 4234, -23423, 423, -3424, ]
 
-function findSum (arr) {
-    let sum = arr[0];
-    for ( let i = 0 ; i < arr.length; i++) {
-        sum = sum + arr[i];
-    }
-    return sum;
-}
+// function findSum (arr) {
+//     let sum = arr[0];
+//     for ( let i = 0 ; i < arr.length; i++) {
+//         sum = sum + arr[i];
+//     }
+//     return sum;
+// }
 
-function findOrlogo (input) {
-    let middle = [];
-    for (i = 0; i < input.length; i++) {
-        if (input[i] > 0) {
-            middle.push(input[i]);
-        }
-    }
-    return middle;
-}
+// function findOrlogo (input) {
+//     let middle = [];
+//     for (i = 0; i < input.length; i++) {
+//         if (input[i] > 0) {
+//             middle.push(input[i]);
+//         }
+//     }
+//     return middle;
+// }
 
-function findZarlaga (input) {
-    let middle = [];
-    for (i = 0; i < input.length; i++) {
-        if (input[i] < 0) {
-            middle.push(input[i]);
-        }
-    }
-    return middle;
-}
+// function findZarlaga (input) {
+//     let middle = [];
+//     for (i = 0; i < input.length; i++) {
+//         if (input[i] < 0) {
+//             middle.push(input[i]);
+//         }
+//     }
+//     return middle;
+// }
 
-let answerOrl = findOrlogo(guilgee);
-console.log("Таны орлого" , " = " ,answerOrl);
-
-
-let answerZar = findZarlaga(guilgee);
-console.log("Таны зарлага" , " = " , answerZar);
+// let answerOrl = findOrlogo(guilgee);
+// console.log("Таны орлого" , " = " ,answerOrl);
 
 
-let sumOrl = findSum(answerOrl);
-console.log("Нийт орлого" , "=" ,sumOrl);
+// let answerZar = findZarlaga(guilgee);
+// console.log("Таны зарлага" , " = " , answerZar);
 
 
-let sumZar = findSum(answerZar);
-console.log("Нийт зарлага" , "=" ,sumZar);
+// let sumOrl = findSum(answerOrl);
+// console.log("Нийт орлого" , "=" ,sumOrl);
 
-let niilber = sumOrl+sumZar;
-console.log("Profit" ,"=" ,niilber);
+
+// let sumZar = findSum(answerZar);
+// console.log("Нийт зарлага" , "=" ,sumZar);
+
+// let niilber = sumOrl+sumZar;
+// console.log("Profit" ,"=" ,niilber);
+
+
+// let guilgee = [234, 4234, -2342, 4234, -342, 243, -34234, 4234, -23423, 423, -3424, ]
+// let orlogo = guilgee.filter((g) => g > 0);
+// let zarlaga = guilgee.filter((g) => g < 0);
+
+
+// console.log(orlogo);
+// console.log(zarlaga);
+
+
+// function sayHi(name) {
+//     console.log("Hello", name);
+// }
+// sayHi("tuka");
+
+let greeting = (name) => {
+    console.log("Hello", name);
+};
+let askQuestion = () => {
+    console.log("How are you?");
+};
+
+// greeting("tuka");
+// askQuestion();
+
+const chatProgram = (a, b, c) => {
+    b();
+};
+
+chatProgram(null , ()=> {console.log("How are you?")});
 
 

@@ -126,6 +126,19 @@ let students = [
 // const grades = getGrades(students);
 // console.log({ grades });
 
-let getMales = students.filter((student) => student.gender == "male");
-let gen = getMales.map((student) => student.name);
-console.log({ gen });
+// let getMales = students.filter((student) => student.gender == "male");
+// let gen = getMales.map((student) => student.name);
+// console.log({ gen });
+
+
+// let sorted = splited.sort((a, b) => { return a.length - b.length});
+// console.log(sorted[0]);
+let string = "Sain bainuu Shn owoljij bnuu hiceel her bna daa";
+
+let splited = string.split(" ");
+let replaced = string.replace("Shn", "Saihan");
+console.log(replaced);
+
+
+
+
