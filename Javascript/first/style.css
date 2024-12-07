@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.body {
+    background-color: brown;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+button {
+    padding: 10px;
+    background-color: orangered;
+    color: black;
+    border-radius: 20px;
+    border: 2px black solid;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+button:hover {
+    padding: 11px;
+    background-color: rgb(108, 32, 5);
+    translate: -10px;
+}
+p {
+    font-size: 20px;
+    color: black;
+    letter-spacing: 3px;
+}
