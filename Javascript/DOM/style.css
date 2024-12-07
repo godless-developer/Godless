@@ -1,0 +1,14 @@
+.button {
+  width: 150px;
+  height: 160px;
+  color: black;
+  background-color: brown;
+  border-radius: 30px;
+}
+#parent {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
