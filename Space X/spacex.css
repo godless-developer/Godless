@@ -30,17 +30,14 @@
   width: 100%;
   height: 100px;
   display: flex;
-<<<<<<< HEAD
   justify-content: space-around;
   align-items: center;
-=======
   justify-content: center;
   align-items: center;
   gap: 40px;
   background-color: rgba(0, 0, 0, 0.246);
   position: fixed;
   font-family: "cookie";
->>>>>>> 7bd419aec4110b05d83186039cbf75ba5b3b3ed3
 }
 .header-logo {
   width: 210px;
