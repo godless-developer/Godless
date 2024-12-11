@@ -1,0 +1,304 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.body {
+    color: white;
+}
+button {
+    cursor: pointer;
+}
+.screen1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 975px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/6d7a/23be/cb6af393851dc03dd35d09417c2ceadd?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U9DRZRYcHkrZYtLKgvIFFql-SfdJv2uYt8qmo0-BMvIQGIBfDgG3U6VUiFCvU2Ns7QLbB7-KJi8nptIOKuJUD20wcN9ehJGjjV~3PCe2iHtnAVHAQlNzdCXfoiHTYBGvoJZkNcH98iuz1UcixJcF4ue5t1NKIBIAXnt1iyLkdGE~YciYhkV1aAwRPTyWuREP-U5WULs272d-ygXlMN1gPisqVQcjwejVlsBFMbbrtJxrbtKLVxOUQ9IaAJYCe6TNcOZXOvXAfjLsnkEypoORZLSZ-W-f64vqYpx0rhaADa3URNYSfgeoxWV-jc-IF~ASHFwc9ePhzGTHTtBUA~wjRw__);
+}
+.screen1-header {
+    width: 100%;
+    height: 56px;
+}
+.screen1-header img {
+    width: 100%;
+    height: 100%;
+}
+.screen1-model {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:50px;
+}
+.screen1-buttons {
+    padding-top: 650px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.screen1-buttons-1 {
+    padding: 8px 40px;
+    background-color: rgba(252, 252, 252, 0.397);
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.screen1-buttons-2 {
+    padding: 8px 50px;
+    background-color: rgba(0, 0, 0, 0.452);
+    filter: blur(4);
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.screen1-under {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+.screen1-under h1 {
+    font-size: 15px;
+}
+.screen2 {
+    width: 100%;
+    height: 975px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://s3-alpha-sig.figma.com/img/d6e6/6c6b/c7b9a89b28e7054d63200682392b3184?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Wg6ec6UhklOBNnA2i916PF~A8SKQuA09dkvfNYFAYZJP0Kb1WXw5EkaMdBrju0hlT8f3n9~l4xKHgQq2PVoW1FxnRvyMRTRCQeB2bi1iUChKAdZuAFnshQWc70ZWHgHQvNIKPuKYVsTIp5QInU1IGBdYMKD3gmkS0J~BMlsArrhd0StUt2mqJc6MOJbfrptUYcVkhY1KQm85H8OM0qmJFdq21GdLrkbr0Jzx7GW5~j9o3-9sXs~3cCbSD5oMGHlfs2UnfwU2G9qQLSQ1xu9MhxOCQRXVkUnJHTq~9jWv1NVAnqEYtFstsdLhLmLB~nllQFRAsiA9WcQEgvC8TRvUcA__);
+}
+.screen2-model {
+    padding-top: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.screen2-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 619px;
+    gap: 50px;
+}
+.screen2-under {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.screen3 {
+    width: 100%;
+    height: 975px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://s3-alpha-sig.figma.com/img/7348/b3e8/d0d912a18fa6ec4f1888f100bc845c36?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HGOmdURFdCXlaEWFNTUIu9lA7ZXMvgOmUsB85UgwaHSVd1VyyfJ3ocVrsGZ~hBGStCtQNyZw4QnGSg2XdnWxONPWf6hWSJrx0IZps4jwbokK3wp6kGsy~1x207CzoYcNnGbKQD4pPqdvs6vDDLXGG52L~nttQR5IvRBnTuOxd9N04oAcmyLi3f6rvjl1dupV5fz90gO031q8wzCZ7c8aRhTkptViL1AcuuvQitQyZZtjF9vURulsASeQkLE~VdNeittzAHWfcwC1llb9jJI8WmVM3t9w6lllYYa8U4Mu4JiYdIDJi5nKV3dLW4pleroC-tbMN~cGrM-XM4q7wO98oQ__);
+}
+.screen3-model {
+    padding-top: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.screen3-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 619px;
+    gap: 50px;
+}
+.screen3-under {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.screen4 {
+    width: 100%;
+    height: 975px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://s3-alpha-sig.figma.com/img/8520/0e04/bd6a0fdc156a53b211754b905057b7df?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oCkDzr-MvyUddcsE4ZWX7n0KZ68Fv2weG5VdlxLYvMwlJyrv2dPQWMgwAOThHmUOkch6v52VeSWT~3av~utRKAlRWHZvxbaqYmpcdLWlI1LrSHTPaRNTtUxy9qanhswNzwWf~dQinfO6kuhPzFGIvxeLhFHzV7qlPzrb-OqFwKPTbpNYStngMk0yQ1T81o2f9SXYMqZeCScp~~Izz16iLkyGexPouqzNrQvBTb9sTz7iziSZN3DYmFL~Nl5lj7JqGsb2IJmvsGzhn5pdhrCctaIrSiZxNb3o2DMmFGxo~GjQyH5efGbYQHT98Hr7V39XngnQwAzfkMhufJQR8kzYFA__);
+}
+.screen4-model {
+    padding-top: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.screen4-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 619px;
+    gap: 50px;
+}
+.screen4-under {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.screen5 {
+    width: 100%;
+    height: 975px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://s3-alpha-sig.figma.com/img/76d8/53f4/a13f230d90c69b3806b4b679cf16c9ed?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l7JU4Gh2Rh3PM02nsgSI0n3g84KduATTYmUkP5qHEA9FdKyUyUnxIjlXVYvWtGJgr9zMW1MF1gUIEE4E8mYtBYQgHHQrXX2rfQvl572kHEDdafd-EmeIufliCSE4sknfQKSqM1~PBk6ubg9vKxa1zPa2SgSY0S5sdxf0tMgz43BiKrEpHYmYUTP-5p5QH9SefRXq0FQyoEQHypDt6bvcNe8c1uAkeC2PdHz~vDK0c55iRVPZVbv~0ZKBAbH1K7ChBnOoQR2kTlWMuAOIhoK~75tajZfAa4hX0scNjh8D9YatQaKVoJjWTcdoT6LtGdA1i0TBRFYZM~862BYVGQ0ZAA__);
+}
+.screen5-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 835px;
+    gap: 50px;
+}
+.screen6 {
+    width: 100%;
+    height: 975px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./Section\ -_\ ExperienceTesla.png);
+}
+.screen7 {
+    width: 100%;
+    height: 975px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://s3-alpha-sig.figma.com/img/63f9/ae84/a09b8cb46f83a23604fb332cca93df72?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ef7sXxKB2Rh5ONfzXjjWVfNYQAWMtej1WH-ZCWZ4Tvsndol1jsxiOCb72oliN4~bp~14VC84EbdqoUg9AND4a2sTgbdDdfnanZmiLJJIgWZgWClJrU~XUWO3GBaJtdFEmkJrclwa9QzNzTqmKRa0QMeSS5clvBPbD1~6jyXiSiAc~-GCjQL27htLUiAujinUpLwlZ1vTqSb2x0zIWsEW9HBUDGb-GdtDDhXbVKtKVt0FS5f5i5ytykrNT-KRaV2e4QH1iV29uzfwTuQOsU3pFFvtRC~RB7hG0RQKM9jORo9hQZeaMHJISBIU5PMfVd2umeIwPLoBRFJmvWwy5cEwpg__);
+}
+.screen7-model {
+    padding-top: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.screen7-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 619px;
+    gap: 50px;
+}
+.screen8 {
+    width: 100%;
+    height: 975px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://s3-alpha-sig.figma.com/img/a8f7/e0ef/c1749c353ea58a621c8c633b3efef56e?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=J5VNBDBWr7jBQVgFPHSCXjImPdtF5FTKm5PvtapqDhdDEkgCkbEeOdUT7pMyH3OsH9YF7yRwN4yUrHtBx-iUXleh~Se6YR35RLOwcWwsatA-E8r4ZvLJZZiKlAKLkpK17WVPx6XlmhmGv-whyVG3r2dGL55~mv1nT6RmZHUMhLeTWDIs9NVFhIsvFbVXIVNUKar~zEkIYtRUA~sJgEQtAWVUBVhl75OlljOzluyzyzbXmquU2Id6Mcbj7FGIJu~fDS-JrGIlv9~xVwU6kwb7p13NnFASkyf889q0tmxvVLaZTvI06EClzRgOXs4xRll9Bxxv6xpy4HRHO-3nVDfVMQ__);
+}
+.screen8-model {
+    padding-top: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.screen8-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 619px;
+    gap: 50px;
+}
+.screen9 {
+    width: 100%;
+    height: 975px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://s3-alpha-sig.figma.com/img/ee62/a6cb/442a5b4ec8bdd443fc0054bf3f323778?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dgfQwVonDyRHJGXC5hZJrQlyBi7RVvNTIZ0k-8xN5muZMlA0G0aSqbUSLIuBRasH6pQ7dCpr7r9fcydAc576t4A3O4d9eBkC1CIVfgUPBlXV~eHBLaeXUi6j7co~UyaEWnkGHcxFPvnsuC8L2s2KJQyteWM3jS8WHoIT7cj6jY4mtOIU-ALQEu8Lkx6eIvTqxvZ7da~i416~JJ4qa7QdGP9Z9WasNl~lK4oKWy5f-9K25imtueL-D8f5aWv0DvBzgEbyTPjwbAoy16qAwz9jVjQAZMzplsNoC43RD0RBfLI6STeeLcMvAiSoqwDVe-rz2cL1FoLKj486TxD40JU6jA__);
+}
+.screen9-model {
+    padding-top: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.screen9-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 619px;
+    gap: 50px;
+}
+.screen10 {
+    width: 100%;
+    height: 975px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://s3-alpha-sig.figma.com/img/2854/a383/afb989857277aee6919710d8754a76f2?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Sl7us3DTbv4K3dNy0b-SBdAoolC39TJbIMK79YK3lBjh2Q0h-TD9qUmFz0i9BlgAxdioGgBWBrAqV6sTwngsj57JOBE9o2oYeWdHGcpia~B26F04mnBRYl6LKTBXTZ-3SHqj8IOusOtgsFL9la6U453zK8-EbJGkwqP00WxIedcQ3pkWbOPSevc08q05JMuEHq-FCHVI4PvsCXADbYdOpudqfAjJrt-c~~xB1TaeGtJH7XZApzQDJHuEnuYWICO2EJsgEDAXenFh~2wojfTBUfXFfgjRQZUb2nF0i7-rM1roL4DbAGYk8qbMdPISefF2Crh7Iz9OyhvTWIOIuvhpUg__);
+}
+.screen10-model {
+    padding-top: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.screen10-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 619px;
+    gap: 50px;
+}
+.screen10-buttons-1 {
+    padding: 10px 60px;
+    background-color: rgba(255, 252, 252, 0.678);
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.screen10-under {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+    color: #333;
+}
+
