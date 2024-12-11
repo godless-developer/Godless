@@ -6,6 +6,7 @@
 .body {
   width: 100%;
   height: 100%;
+  cursor: default;
 }
 .flight-test {
   width: 100%;
@@ -13,35 +14,74 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: relative;
-  overflow: hidden;
 }
-.video1 {
-  position: absolute;
-  top: 0;
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
   left: 0;
-  width: 100%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 .header {
   width: 100%;
   height: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: rgba(0, 0, 0, 0.246);
+  position: fixed;
+  font-family: "cookie";
 }
 .header-logo {
   width: 210px;
   height: 26.25px;
   color: black;
+  margin-left: 300px;
+}
+.header-logo img {
+  width: 210px;
+  height: 26.25px;
 }
 .header-center {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
+  padding-top: 10px;
+  font-size: 13px;
+  letter-spacing: -1px;
+  font-weight: bolder;
+}
+.header-center p {
+  transition: all 0.4s ease-in-out;
+}
+.header-center p:hover {
+  cursor: pointer;
+  color: white;
+  translate: 0px -5px;
 }
 .header-end {
+  font-weight: bolder;
+  font-size: 13px;
+
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
+  margin-left: 600px;
+  padding-top: 10px;
+}
+.flight-test-sentence {
+  padding-top: 600px;
+  padding-left: 400px;
+}
+button {
+  width: 100px;
+  height: 50px;
+  margin-left: 400px;
 }

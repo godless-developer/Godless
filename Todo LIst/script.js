@@ -32,7 +32,7 @@ const containerItems = [
     count: 1,
     color: "white",
     id: "todo",
-    paragraph: "[loan-managament] - Add card component",
+    paragraph: "nothing",
     option1: "In Progress",
     option2: "Done",
   },
@@ -65,38 +65,6 @@ const containerItems = [
   },
 ];
 
-const listItems = [
-  {
-    paragraph: "[loan-managament] - Add card component",
-    option1: "In Progress",
-    option2: "Done",
-  },
-  {
-    paragraph: "[loan-managament] - Add card component",
-    option1: "In Progress",
-    option2: "Done",
-  },
-  {
-    paragraph: "[loan-managament] - Add card component",
-    option1: "In Progress",
-    option2: "Done",
-  },
-  {
-    paragraph: "[loan-managament] - Add card component",
-    option1: "In Progress",
-    option2: "Done",
-  },
-  {
-    paragraph: "[loan-managament] - Add card component",
-    option1: "In Progress",
-    option2: "Done",
-  },
-  {
-    paragraph: "[loan-managament] - Add card component",
-    option1: "In Progress",
-    option2: "Done",
-  },
-];
 // listItems.filter((item) => {
 //   addTaskList.listItem(item.paragraph, item.option1, item.option2);
 // });
@@ -119,6 +87,38 @@ function addTaskList(title, color, count, paragraph, option1, option2) {
   titleDiv.appendChild(cirlce);
   titleDiv.appendChild(h2);
   titleDiv.appendChild(count1);
+  let listItems = [
+    {
+      paragraph: "[loan-managament] - Add card component",
+      option1: "In Progress",
+      option2: "Done",
+    },
+    {
+      paragraph: "[loan-managament] - Add card component",
+      option1: "In Progress",
+      option2: "Done",
+    },
+    {
+      paragraph: "[loan-managament] - Add card component",
+      option1: "In Progress",
+      option2: "Done",
+    },
+    {
+      paragraph: "[loan-managament] - Add card component",
+      option1: "In Progress",
+      option2: "Done",
+    },
+    {
+      paragraph: "[loan-managament] - Add card component",
+      option1: "In Progress",
+      option2: "Done",
+    },
+    {
+      paragraph: "[loan-managament] - Add card component",
+      option1: "In Progress",
+      option2: "Done",
+    },
+  ];
   listItems.map((item) => {
     const lists = document.createElement("div");
     taskContainer2.appendChild(todoList);
@@ -133,13 +133,16 @@ function addTaskList(title, color, count, paragraph, option1, option2) {
     const item2 = document.createElement("select");
     item2.setAttribute("class", "select");
     listItem.appendChild(item2);
-    item2.innerText = "option";
-    const choice1 = document.createElement("option");
-    item2.appendChild(choice1);
-    choice1.innerText = option1;
-    const choice2 = document.createElement("option");
-    item2.appendChild(choice2);
-    choice2.innerText = option2;
+    let options = ["to do", "in-progress", "done", "blocked"];
+    options.map((item) => {
+      item2.innerText = "option";
+      const choice1 = document.createElement("option");
+      item2.appendChild(choice1);
+      choice1.innerText = option1;
+      const choice2 = document.createElement("option");
+      item2.appendChild(choice2);
+      choice2.innerText = option2;
+    });
   });
 }
 containerItems.map((item) => {

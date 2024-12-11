@@ -22,6 +22,7 @@ body {
   border-radius: 3px;
   border: none;
   font-size: large;
+  cursor: pointer;
 }
 
 .taskContainer {
@@ -56,11 +57,17 @@ body {
 .list {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-self: center;
   gap: 20px;
+  width: 350px;
   margin-top: 20px;
-  margin: 30px;
 }
-
+.todoList {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
 .listItem {
   display: flex;
   align-items: center;
@@ -68,6 +75,7 @@ body {
   gap: 20px;
   background-color: #333;
   border-radius: 10px;
+  height: 50px;
   font-family: sans-serif, Times, serif;
 }
 .select {
