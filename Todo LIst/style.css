@@ -22,6 +22,7 @@ body {
   border-radius: 3px;
   border: none;
   font-size: large;
+  cursor: pointer;
 }
 
 .taskContainer {
@@ -41,7 +42,6 @@ body {
   display: flex;
   align-items: center;
   width: 100%;
-
   gap: 10px;
 }
 .title .count {
@@ -57,11 +57,30 @@ body {
 .list {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-self: center;
   gap: 20px;
+  width: 350px;
   margin-top: 20px;
 }
-
+.todoList {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
 .listItem {
   display: flex;
   align-items: center;
+  padding: 20px;
+  gap: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  height: 50px;
+  font-family: sans-serif, Times, serif;
+}
+.select {
+  cursor: pointer;
+}
+.option {
+  cursor: pointer;
 }
