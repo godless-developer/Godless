@@ -63,6 +63,7 @@
   font-size: 13px;
   letter-spacing: -1px;
   font-weight: bolder;
+  flex-grow: 1;
 }
 .header-center p {
   transition: all 0.4s ease-in-out;
@@ -75,12 +76,11 @@
 .header-end {
   font-weight: bolder;
   font-size: 13px;
-
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
-  margin-left: 600px;
+  padding-right: 30px;
   padding-top: 10px;
 }
 .flight-test-sentence {
